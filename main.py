@@ -13,7 +13,7 @@ def speak(text):
 
 # This Function Fetches the Weather of a City from API Key
 def weather(city):
-    API_KEY = "aec5d76b2089614dac50cec7bf2753fe"
+    API_KEY = "YOUR-API-KEY"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     try:
         response = requests.get(url)
